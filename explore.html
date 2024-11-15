@@ -1,658 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jiffy Portfolio</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./explore.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Jiffy Company</h1>
-
-          <p class="title">Stores Solution</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:richard@example.com" class="contact-link">jiffy.company.business@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12133522795" class="contact-link">+968 </a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Lounch Date</p>
-
-              <time datetime="1982-06-23">June 27, 2024</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Muscat, Oman</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Gallery</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blogs</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About Jiffy</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            Results-oriented and detail-focused computer science
-graduate with a strong passion for Machine Learning and
-Data Science. Proficient in Python, application development,
-web development, User experience, etc... Consistently strive
-to expand my skill set, take on more responsibilities, and
-acquire practical experience to make significant contributions
-towards an organization's success while fostering my
-professional development.ns.
-          </p>
-
-          <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">Jiffy Team</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Anwar Al Saadi</h4>
-
-                <p class="service-item-text">
-                    CEO                </p>
-              </div>
-
-            </li>
-            <li class="service-item">
-
-                <div class="service-icon-box">
-                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="explore.css">
+        <link rel="icon" href="/Images/logo1.png"/>
+
+        <title>Responsive website food</title>
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="index.html" class="nav__logo">Jiffy</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#products" class="nav__link">Products</a></li>
+                        <li class="nav__item"><a href="#team" class="nav__link">Team</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
                 </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Mzyane Al Hasani</h4>
-
-                  <p class="service-item-text">
-                      Software & Hardware Developer</p>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
                 </div>
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Majd Al Waheibi</h4>
-
-                <p class="service-item-text">
-                    Marketing</p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Faris Al Harthy</h4>
-
-                <p class="service-item-text">
-                  Finance
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Salim Al Abri</h4>
-
-                <p class="service-item-text">Public Relations</p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-
-      <!--
-        - #RESUME
-
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
+            </nav>
         </header>
 
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">GERMAN UNIVERSITY OF TECHNOLOGY IN OMAN</h4>
-
-              <span>2017 — 2024</span>
-
-              <p class="timeline-text">
-                BACHELOR IN COMPUTER SCIENCE<br>
-                > Relevant courses: Cyber Security, Computer
-Networks, Artificial Intelligence, Mobile Applications,
-Database, Web Development, Operating Systems,
-etc...
-
-
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">ALBILLAH SCHOOL</h4>
-
-              <span>2006 — 2017</span>
-
-              <p class="timeline-text">
-                DIPLOMA HIGH SCHOOL
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">IT Help Dest Support Intern | GUtech
-            </h4>
-
-              <span>February 2023- June 2023</span>
-
-              <p class="timeline-text">
-                Supporting, fixing, and maintaining the hardware and
-software of GUtech’s computer systems.
-Setting up and configuring computer systems and
-networks. Supporting GUtech’s staff and students.
-
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Prototype Technician intern | Burger &
-                Gelato Restaurant</h4>
-
-              <span>September 2022- October 2022</span>
-
-              <p class="timeline-text">
-                Handling user requirements
-Designing of the interface, and database
-system analysis
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web/App design</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Data Analyst</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-              <li class="skills-item">
-
-                <div class="title-wrapper">
-                  <h5 class="h5">Application Development</h5>
-                  <data value="75">75%</data>
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Jiffy Company</h1>
+                        <h2 class="home__subtitle">Blazing Speed,<br>Perfect Precision</h2>
+                        <a href="index.html" class="button">View Jiffy</a>
+                    </div>
+                    <video autoplay loop muted playsinline class="background-video">
+                        <source src="images/logoe.mp4" type="video/mp4">
+                    </video>
                 </div>
+            </section>
 
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 75%;"></div>
-                </div>
-
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web Development</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Apps Development</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
- -->
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="gallery" data-page="gallery">
-
-        <header>
-          <h2 class="h2 article-title">Gallery</h2>
-        </header>
-
-        <section class="projects">
-
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-
-          </div>
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-                <a href="#">
-
-                  <figure class="blog-banner-box">
-                    <img src="./assets/images/jiffy.jpeg" alt="Oman Innovation Festival" loading="lazy">
-                  </figure>
-
-                  <div class="blog-content">
-
-                    <div class="blog-meta">
-                      <p class="blog-category">Event</p>
-
-                      <span class="dot"></span>
-
-                      <time datetime="2024-05-08">May 8, 2024</time>
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">About us</span>
+                        <h2 class="section-title about__initial">we bring Jiffy to grocery stores</h2>
+                        <p class="about__description">Jiffy introduces innovative self-service stores that make shopping faster and easier than ever. Say goodbye to long lines – with Jiffy, it’s all about seamless experiences that take just seconds.
+                        </p>
+                        <a href="Mission & Vision.html" class="button">Mission & Vision</a>
                     </div>
 
-                    <h3 class="h3 blog-item-title">The lounch event of the Educationnal Sector</h3>
+                    <img src="images/about.jpg" alt="" class="about__img">
+                </div>
+            </section>
 
-                    <p class="blog-text">
-                        Our company "Jiffy" got the chance to introduce the idea of the Jiffy machine to investors.
-                    </p>
+            <section class="menu section bd-container" id="team">
+                <span class="section-subtitle">Jiffy's Team</span>
+                <h2 class="section-title">Our amazing team</h2>
 
-                  </div>
+                <div class="menu__container bd-grid">
+                    <div class="menu__content">
+                        <img src="images/team.png" alt="" class="team__img">
+                        <h3 class="menu__name">Anwar Al Saadi</h3>
+                        <span class="menu__detail">Founder</span>
+                        <a href="#" class="button menu__button"></a>
+                    </div>
 
-                </a>
-              </li>
+                    <div class="menu__content">
+                        <img src="images/team.png" alt="" class="team__img">
+                        <h3 class="menu__name">Salad with fish</h3>
+                        <span class="menu__detail">CO-Founder</span>
+                        <a href="#" class="button menu__button"></a>
+                    </div>
 
-              </a>
-            </li>
+                    <div class="menu__content">
+                        <img src="images/team.png" alt="" class="team__img">
+                        <h3 class="menu__name">Mzyane Al Hasani</h3>
+                        <span class="menu__detail">Software & Hardware developer</span>
+                        <a href="#" class="button menu__button"></a>
+                    </div>
+                    <div class="menu__content">
+                        <img src="images/team.png" alt="" class="team__img">
+                        <h3 class="menu__name">Faris Al Harthy</h3>
+                        <span class="menu__detail">Operation</span>
+                        <a href="#" class="button menu__button"></a>
+                    </div>
+                    <div class="menu__content">
+                        <img src="images/team.png" alt="" class="team__img">
+                        <h3 class="menu__name"> Mohammed Al </h3>
+                        <span class="menu__detail">Finance</span>
+                        <a href="#" class="button menu__button"></a>
+                    </div>
+                    <div class="menu__content">
+                        <img src="images/team.png" alt="" class="team__img">
+                        <h3 class="menu__name">As’ad Al Rashidi</h3>
+                        <span class="menu__detail">Marketing</span>
+                        <a href="#" class="button menu__button"></a>
+                    </div>
+                </div>
+            </section>
 
+            <section class="app section bd-container" id="products">
+                <div class="app__container bd-grid">
+                    <div class="app__data">
+                        <span class="section-subtitle app__initial">Our Products</span>
+                        <h2 class="section-title app__initial">Jiffy's Machine</h2>
+                        <p class="app__description">Our machine incorporates a gate equipped with a barcode scanner that scans all barcodes passing through it.</p>
+                    </div>
 
+                    <img src="images/jiffy.png" alt="" class="app__img">
+                </div>
+            </section>
 
+            <!--========== CONTACT US ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Let's talk</span>
+                        <h2 class="section-title contact__initial">Contact us</h2>
+                        <p class="contact__description">If you you have any inqueries, contact us and we will attend you quickly, with our 24/7 chat service.</p>
+                    </div>
 
+                    <div class="contact__button">
+                        <a href="contact.html" class="button">Contact us now</a>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-              </a>
-            </li>
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">Jiffy Com.</a>
+                    <div>
+                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
 
-              </a>
-            </li>
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Pricing</a></li>
+                    </ul>
+                </div>
 
-          </ul>
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li><a href="contact.html" class="footer__link">Contact us</a></li>
+                        <li><a href="#" class="footer__link">Terms of services</a></li>
+                    </ul>
+                </div>
 
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                <div class="footer__content">
+                    <h3 class="footer__title">Adress</h3>
+                    <ul>
+                        <li>Muscat</li>
+                    </ul>
+                </div>
             </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <p class="footer__copy">2024 Jiffy. All right reserved</p>
+        </footer>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-          </form>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>

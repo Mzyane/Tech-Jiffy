@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jiffy</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="/Images/logo11.png"/>
+    <link rel="stylesheet" href="products.css" />
+    <link rel="icon" href="/Images/logo1.png"/>
 
   </head>
   <body>
@@ -22,12 +22,26 @@
       <div class="main-container">
         <div class="main">
           <header>
+            <video autoplay loop muted playsinline class="background-video">
+                <source src="images/Cover6.mp4" type="video/mp4">
+            </video>
             <div class="overlay">
               <div class="inner">
                 <div class="box">
                   <div class="form">
-                      <h2>- our Products -</h2>
-                     
+                      <h2> Jiffy's Products</h2>
+                      <div class="slider-container">
+                        <div class="slider">
+                          <div class="slide">
+                            <img src="images/jiffy.png" alt="Image 1" style="height: 95%;width:40%;">
+                            <div class="description">Jiffy's Self-Checkout machine</div>
+                          </div>
+
+                        </div>
+                        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+                      </div>
+
                   </div>
               </div>
               </div>
@@ -48,16 +62,13 @@
             <a href="signin.html" style="--i: 0.1s;">Sign In</a>
           </li>
           <li>
-            <a href="signup.html" style="--i: 0.15s;">Sign Up</a>
+            <a href="Mission & Vision.html" style="--i: 0.2s;">Mission & Vision</a>
           </li>
           <li>
             <a href="whyus.html" style="--i: 0.2s;">Why us?</a>
           </li>
           <li>
-            <a href="mission.html" style="--i: 0.2s;">Our Mission</a>
-          </li>
-          <li>
-            <a href="vision.html" style="--i: 0.2s;">Our Vision</a>
+            <a href="team.html" style="--i: 0.2s;">Team</a>
           </li>
           <li>
             <a href="product.html" style="--i: 0.2s;">Our Products</a>

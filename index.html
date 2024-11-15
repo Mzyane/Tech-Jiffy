@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jiffy</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="/Images/logo11.png"/>
+    <link rel="icon" href="/Images/logo1.png"/>
 
   </head>
   <body>
+
     <div class="container">
       <div class="navbar">
         <div class="menu">
-          <img src="images/logo1.png" alt="Jiffy logo" style="width: 70px;height: 70px;left: 70%; ">
-          <div class="hamburger-menu">
+            <i class="fa-brands fa-square-instagram"></i>          <div class="hamburger-menu">
             <div class="bar"></div>
           </div>
         </div>
@@ -22,13 +22,14 @@
       <div class="main-container">
         <div class="main">
           <header>
+            <video autoplay loop muted playsinline class="background-video">
+                <source src="images/Cover2.mp4" type="video/mp4">
+            </video>
             <div class="overlay">
               <div class="inner">
                 <h2 class="title">Our Message</h2>
-                <p>
-
-                    Join Us on Our Journey
-                    We are excited to bring Jiffy to grocery stores near you and transform the way you shop. Stay tuned for updates and new features as we continue to innovate and improve our system. Thank you for choosing Jiffy – where technology meets convenience!<a href="explore.html">
+                <p>Join us as we bring Jiffy to grocery stores, transforming your shopping experience with technology and convenience. Stay tuned for updates and new features as we continue to innovate. Thank you for choosing Jiffy!
+                    <a href="explore.html">
                 <button class="btn">Explore</button></a>
               </div>
             </div>
@@ -48,7 +49,7 @@
                 <a href="signin.html" style="--i: 0.1s;">Sign In</a>
               </li>
               <li>
-                <a href="signup.html" style="--i: 0.15s;">Sign Up</a>
+                <a href="Mission & Vision.html" style="--i: 0.2s;">Mission & Vision</a>
               </li>
               <li>
                 <a href="whyus.html" style="--i: 0.2s;">Why us?</a>
@@ -57,10 +58,7 @@
                 <a href="about.html" style="--i: 0.25s;">About</a>
               </li>
               <li>
-                <a href="mission.html" style="--i: 0.2s;">Our Mission</a>
-              </li>
-              <li>
-                <a href="vision.html" style="--i: 0.2s;">Our Vision</a>
+                <a href="team.html" style="--i: 0.2s;">Team</a>
               </li>
               <li>
                 <a href="product.html" style="--i: 0.2s;">Our Products</a>
@@ -71,7 +69,28 @@
         </ul>
       </div>
     </div>
+    <!-- Firebase SDKs -->
+<script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.js"></script>
 
+<!-- Firebase Configuration -->
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyA-IK4Lz0VmwnnY1vuD3pNR3tWsOQjxfec",
+    authDomain: "jiffy-8e393.firebaseapp.com",
+    projectId: "jiffy-8e393",
+    storageBucket: "jiffy-8e393.firebasestorage.app",
+    messagingSenderId: "344658355368",
+    appId: "1:344658355368:web:5e7244cb1a8e39a95fce9d",
+    measurementId: "G-Y45B36CHFN"
+  };
+
+  // Initialize Firebase
+  const app = firebase.initializeApp(firebaseConfig);
+  const auth = firebase.auth();
+  const db = firebase.firestore();
+</script>
     <script src="main.js"></script>
   </body>
 </html>

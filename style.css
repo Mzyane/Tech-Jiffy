@@ -107,13 +107,12 @@ button {
 header {
   min-height: 100vh;
   width: 100%;
-  background: url("Cover.png") no-repeat top center / cover;
   position: relative;
 }
 
 .overlay {
   position: absolute;
-  width: 100%;
+  width: 50%;
   height: 100%;
   top: 0;
   left: 0;
@@ -304,56 +303,70 @@ ul {
 .container.active .main:hover {
   transform: perspective(1300px) rotateY(20deg) translateZ(340px) scale(0.5);
 }
-.box
-{
-    padding: 20px 30px;
-    width: 550px;
-    height: 400px;
+
+ .box {
+    padding: 40px 50px;
+    width: 400px; /* Adjusted width */
+    height: 440px; /* Adjusted height */
     backdrop-filter: blur(10px);
     border-radius: 5px;
     background: rgba(49, 49, 49, .2);
     border: 1px solid rgba(255, 255, 255, .5);
-}
+    margin-top: 90px;
+
+    }
+
 .box .form
 {
-    padding: 50px 50px;
+    padding: 90px 90px 90px 40px;
     text-align: left;
+    margin-top: -110px;
 
 }
 .box .form h2
 {
-    text-align: center;
+    text-align: left;
     color: #fff;
+    padding-bottom: 30px;
 }
 .box .form form
 {
-    margin-top: 50px;
-    align-items: left;
+    margin-top: -5px;
+    align-items: center;
 }
 .box .form form .inputbox input
 {
-    padding: 10px 20px;
+    padding: 15px 35px;
     border: none;
     outline: none;
     background: none;
-    border-bottom: 1px solid #12151e;
+    border-bottom: 1px solid #fdfdfd;
     margin-bottom: 30px;
     color: #fff;
 }
 .box .form form .inputbox span
 {
     position: absolute;
-    transform: translateY(-80px);
+    transform: translateY(-70px);
     font-size: 14px;
     color: #fff;
 }
 .box .form form .sub
 {
-    padding: 10px 20px;
-    color: #fff;
-    border: none;
+    padding: 10px 10px;
+    color: #0e4780;
+    border-radius: 5px;
     outline: none;
-    background: #0cc0df;
+    background: #ffffff;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
+}
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1; /* Make sure the video is behind other content */
 }
