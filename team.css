@@ -45,16 +45,11 @@ button {
 }
 
 .logo {
-  font-size: 1.1rem;
-  font-weight: 600;
-  background-image: image('Images/logo1.png');
-  letter-spacing: 2px;
-  line-height: 4rem;
+align-content: left;
+
 }
 
-.logo span {
-  font-weight: 300;
-}
+
 
 .hamburger-menu {
   height: 4rem;
