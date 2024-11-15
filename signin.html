@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jiffy</title>
-    <link rel="stylesheet" href="signin.css" />
-    <link rel="icon" href="/Images/logo1.png"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/Images/logo11.png"/>
+
   </head>
   <body>
     <div class="container">
@@ -27,20 +28,19 @@
             <div class="overlay">
               <div class="inner">
                 <div class="box">
-                    <div class="form">
-                    <h2>Sign In</h2>
-                    <form>
-                      <div class="inputbox">
-                        <input type="text" value="" id="username" placeholder="Name" required>
-                        <span>Name</span>
-                      </div>
-                      <div class="inputbox">
-                        <input type="email" value="" id="email" placeholder="Email" required>
-                        <span>E-mail</span>
-                      </div>
-                      <input type="submit" value="Sign In" class="sub" id="submit">
-                      <a href="signup.html" class="register-link">Sign Up</a>
-                    </form>
+                  <div class="form">
+                      <h2>Log In</h2>
+                      <form>
+                          <div class="inputbox">
+                              <input type="text" value="" id="username" required>
+                              <span>Company Name</span>
+                          </div>
+                          <div class="inputbox">
+                              <input type="email" value="" id="email" required>
+                              <span>E-mail</span>
+                          </div>
+                          <input type="submit" value="Log In" class="sub" id="submit">
+                      </form>
                   </div>
                 </div>
               </div>
@@ -54,36 +54,68 @@
 
       <div class="links">
         <ul>
-          <li><a href="index.html" style="--i: 0.05s;">Home</a></li>
-          <li><a href="signin.html" style="--i: 0.1s;">Sign In</a></li>
-          <li><a href="Mission & Vision.html" style="--i: 0.2s;">Mission & Vision</a></li>
-          <li><a href="whyus.html" style="--i: 0.2s;">Why us?</a></li>
-          <li><a href="team.html" style="--i: 0.2s;">Team</a></li>
-          <li><a href="product.html" style="--i: 0.2s;">Our Products</a></li>
-          <li><a href="contact.html" style="--i: 0.25s;">Contact</a></li>
+            <li>
+                <a href="index.html" style="--i: 0.05s;">Home</a>
+              </li>
+              <li>
+                <a href="signin.html" style="--i: 0.1s;">Sign In</a>
+              </li>
+              <li>
+                <a href="signup.html" style="--i: 0.15s;">Sign Up</a>
+              </li>
+              <li>
+                <a href="whyus.html" style="--i: 0.2s;">Why us?</a>
+              </li>
+              <li>
+                <a href="mission.html" style="--i: 0.2s;">Our Mission</a>
+              </li>
+              <li>
+                <a href="vision.html" style="--i: 0.2s;">Our Vision</a>
+              </li>
+              <li>
+                <a href="product.html" style="--i: 0.2s;">Our Products</a>
+              </li>
+              <li>
+                <a href="contact.html" style="--i: 0.25s;">Contact</a>
+              </li>
         </ul>
       </div>
     </div>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+   import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js";
 
-    <script>
-        const loginForm = document.getElementById('login-form');
+// Your web app's Firebase configuration
+   const firebaseConfig = {
+  apiKey: "AIzaSyCLvqR7lAm8m2ULSS6kJBpgbFVP2DcQh90",
+  authDomain: "wejhatech-affc1.firebaseapp.com",
+  databaseURL: "https://wejhatech-affc1-default-rtdb.firebaseio.com",
+  projectId: "wejhatech-affc1",
+  storageBucket: "wejhatech-affc1.appspot.com",
+  messagingSenderId: "199470830381",
+  appId: "1:199470830381:web:faf6016264444a188b79a4",
+  measurementId: "G-3JMTN3NY9H"
+   };
 
-        loginForm.addEventListener('submit', (e) => {
-          e.preventDefault();
-          const email = document.getElementById('login-email').value;
-          const password = document.getElementById('login-password').value;
+// Initialize Firebase
+   const app = initializeApp(firebaseConfig);
 
-          auth.signInWithEmailAndPassword(email, password)
-            .then((userCredential) => {
-              alert("User logged in successfully!");
-              loginForm.reset();
-            })
-            .catch((error) => {
-              alert(error.message);
-            });
-        });
-      </script>
+//get ref to database services
+    const db = getDatabase(app);
 
+    document.getElementById("submit").addEventListener('click', function(e){
+     e.preventDefault();
+     set(ref(db, 'user/' + document.getElementById("username").value),
+     {
+
+       username: document.getElementById("username").value,
+       email: document.getElementById("email").value,
+
+     });
+       alert("Login Sucessfull  !");
+    })
+</script>
     <script src="main.js"></script>
   </body>
 </html>
