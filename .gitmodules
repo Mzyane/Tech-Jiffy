@@ -1,0 +1,3 @@
+[submodule "Jiffy"]
+	path = Jiffy
+	url = https://github.com/Mzyane/Tech-Jiffy.git
