@@ -5,6 +5,13 @@ const container = document.querySelector(".container");
 hamburger_menu.addEventListener("click", () => {
   container.classList.toggle("active");
 });
+const menuToggle = document.getElementById('menu-toggle');
+const navLinks = document.getElementById('nav-links');
+
+menuToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
+
 
 let currentIndex = 0;
 
