@@ -313,7 +313,7 @@ ul {
 .box .form h2
 {
     text-align: center;
-    color: #fff;
+    color: #2f46ad;
     margin-left: 50px;
 }
 .box .form form
@@ -325,17 +325,17 @@ ul {
 {
     padding: 15px 35px;
     background: none;
-    border: 1px solid #fdfdfd;
+    border: 1px solid #2f46ad;
     border-radius: 50px;
     margin-bottom: 40px;
-    color: #fff;
+    color: #2f46ad;
 }
 .box .form form .inputbox span
 {
     position: absolute;
     transform: translateY(-70px);
     font-size: 14px;
-    color: #fff;
+    color: #2f46ad;
     margin-left: -65px;
 }
 
@@ -358,17 +358,17 @@ ul {
     font-size: 20px;
     font-weight: bold;
     transition: all 0.2s ease;
-    box-shadow: 0 5px #44a47c;
+    box-shadow: 0 5px #2f46ad;
   }
 .register-link{
     font-size: 15px;
     margin-left: 14px;
-    color: #fdfdfd;
+    color: #2f46ad;
 
 }
   .sub:active {
     transform: translateY(5px);
-    box-shadow: 0 2px #44a47c;
+    box-shadow: 0 2px #2f46ad;
   }
 
   @media screen and (max-width: 768px) {
@@ -450,7 +450,7 @@ ul {
 .box .form h2
 {
     text-align: center;
-    color: #fff;
+    color: #2f46ad;
     margin-left: 30px;
 }
 .box .form form
@@ -462,17 +462,17 @@ ul {
 {
     padding: 15px 35px;
     background: none;
-    border: 1px solid #fdfdfd;
+    border: 1px solid #2f46ad;
     border-radius: 50px;
     margin-bottom: 40px;
-    color: #fff;
+    color: #2f46ad;
 }
 .box .form form .inputbox span
 {
     position: absolute;
     transform: translateY(0px);
     font-size: 14px;
-    color: #fff;
+    color: #2f46ad;
     margin-top: -20%;
     margin-left: -15%;
 }
