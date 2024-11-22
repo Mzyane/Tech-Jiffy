@@ -354,5 +354,8 @@ ul {
           body{
             background-image: url("images/Cover4.png");
           }
+          h5{
+            margin-bottom: 15%;
+        }
       }
 
