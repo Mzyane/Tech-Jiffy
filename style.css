@@ -317,10 +317,10 @@ ul {
         }
 
         .links {
-            display:inline;
+            display:ruby;
             position:absolute;
-            margin-right: -80%;
-            top: 20%;
+            margin-right: -10%;
+            top: 30%;
             width: 100%;
             padding: 10px;
         }
@@ -349,6 +349,8 @@ ul {
             display:contents;
 
           }
-
+          body{
+            background-image: url("images/Cover4.png");
+          }
       }
 
