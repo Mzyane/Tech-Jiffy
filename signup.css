@@ -428,7 +428,7 @@ ul {
             padding: 15px;
             max-width: 90%;
             height: 350px;
-            margin-left: 56%;
+            margin-left: 53%;
           }
 
           .box h2 {
@@ -470,12 +470,12 @@ ul {
 }
 .box .form form .inputbox span
 {
-    position: absolute;
+    position: fixed;
     transform: translateY(0px);
     font-size: 10px;
     color: #2f46ad;
     margin-top: -10%;
-    margin-left: -10%;
+    margin-right: 0%;
 }
 body{
     background-image: url("images/Cover4.png");

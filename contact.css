@@ -473,12 +473,12 @@ ul {
 }
 .box .form form .inputbox span
 {
-    position: absolute;
+    position: fixed;
     transform: translateY(0px);
     font-size: 10px;
     color: #2f46ad;
     margin-top: -10%;
-    margin-left: -15%;
+    margin-right: 0%;
 }
 
 }
