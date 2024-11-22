@@ -378,10 +378,10 @@ ul {
           display: block;
         }
         .links {
-            display:ruby;
+            display:inline;
             position:absolute;
-            margin-right: -10%;
-            top: 30%;
+            margin-right: -83%;
+            top: 25%;
             width: 100%;
             padding: 10px;
 
@@ -392,11 +392,12 @@ ul {
         }
 
         .links a {
-          padding: 9px;
-          font-size: 0.3em;
-          text-align: center;
-          color: #ffffff;
-          margin-bottom: 2%;
+            padding: 9px;
+            font-size: 4px;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 1%;
+
 
         }
         .background-video {
@@ -409,9 +410,9 @@ ul {
           }
           .box {
             padding: 20px 20px 20px 20px;
-            max-width: 90%;
+            max-width: 80%;
             height: 250px;
-            margin-left: 35%;
+            margin-left: 57%;
             color: #2f46ad;
             font-size: small;
           }

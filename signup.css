@@ -397,10 +397,10 @@ ul {
           display: block;
         }
         .links {
-            display:ruby;
+            display:inline;
             position:absolute;
-            margin-right: -10%;
-            top: 30%;
+            margin-right: -83%;
+            top: 25%;
             width: 100%;
             padding: 10px;
         }
@@ -410,12 +410,11 @@ ul {
         }
 
         .links a {
-          padding: 9px;
-          font-size: 0.3em;
+            padding: 9px;
+          font-size: 4px;
           text-align: center;
           color: #ffffff;
-          margin-bottom: 2%;
-
+          margin-bottom: 1%;
         }
         .background-video {
             top: 0;
@@ -429,7 +428,7 @@ ul {
             padding: 15px;
             max-width: 90%;
             height: 350px;
-            margin-left: 50%;
+            margin-left: 56%;
           }
 
           .box h2 {

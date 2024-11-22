@@ -317,10 +317,10 @@ ul {
         }
 
         .links {
-            display:ruby;
+            display:inline;
             position:absolute;
-            margin-right: -10%;
-            top: 30%;
+            margin-right: -83%;
+            top: 25%;
             width: 100%;
             padding: 10px;
         }
@@ -330,10 +330,11 @@ ul {
         }
 
         .links a {
-          padding: 9px;
-          font-size: 0.3em;
-          text-align: center;
-          color: #ffffff;
+            padding: 9px;
+            font-size: 4px;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 1%;
 
         }
 

@@ -393,13 +393,12 @@ ul {
           display: block;
         }
         .links {
-            display:ruby;
+            display:inline;
             position:absolute;
-            margin-right: -10%;
-            top: 30%;
+            margin-right: -83%;
+            top: 25%;
             width: 100%;
             padding: 10px;
-
         }
 
         .links.show {
@@ -407,11 +406,12 @@ ul {
         }
 
         .links a {
-          padding: 9px;
-          font-size: 0.3em;
-          text-align: center;
-          color: #ffffff;
-          margin-bottom: 2%;
+            padding: 9px;
+            font-size: 4px;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 1%;
+
 
         }
         .background-video {
@@ -426,7 +426,7 @@ ul {
             padding: 15px;
             max-width: 90%;
             height: 320px;
-            margin-left: 55%;
+            margin-left: 60%;
           }
 
           .box h2 {
